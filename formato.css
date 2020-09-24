@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+  background-image: url(file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Background.png);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-family: arial;
+  font-size: 12;
+  padding: 0 0;
+}
+#logo{
+  position: relative;
+  top: 0px;
+  width: 376;
+  height: 66;
+  padding: 12;
+  padding-left: 20;
+}
+#menu{
+  background-color: #000;
+}
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li{
+  display: inline-block;
+}
+#menu ul li a{
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+#menu ul li a:hover{
+  background-color: #00b079;
+}
+.item-r{
+  float: right;
+}
+.nav li ul{
+  display: none;
+  position: absolute;
+}
+.nav li:hover > ul{
+  display: block;
+}
+.submenu ul > li{
+  float: left;
+  background-color: black;
+  min-width: 140px;
+}
+#contenido{
+  border-top: 6px solid #C00000;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  top: 13;
+  margin: 0;
+}
+#contenido ul{
+  list-style: none;
+  width: 1020;
+  margin-right: 5;
+  padding-left: 0;
+}
+#contenido ul li{
+  display: inline-block;
+  position: relative;
+  left: 20;
+}
+center{
+  font-family: Segoe UI;
+  font-size: 25;
+}
+#p1{
+  width: 220;
+  background-color: white;
+  display: block;
+  margin-left: 10;
+  margin-top: 10;
+  padding: 10;
+}
+#p1 b{
+  font-size: 16;
+}
+#p1 img{
+  width: 200;
+  padding: 10;
+}
+#p1:hover{
+  background:#ed6360;
+}
+.home{
+  display: flex;
+  flex-wrap: wrap;
+}
+.in-flex{
+  flex: 1;
+  min-width: 250px;
+  z-index: 3;
+}
+.inflex:first-child{
+  flex: 2;
+  padding: 25px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+.inflex div{
+  padding: 25px;
+  margin: 20px;
+}
+.nav1 li ul{
+  display: none;
+  position: absolute;
+}
+.nav1 li:hover > ul{
+  display: block;
+}
+.submenu1 ul > li{
+  float: left;
+  background-color: rgb(27, 27, 27);
+  padding: 10px;
+  width: 463px;
+  text-align: justify;
+  color: white;
+}
+.submenu2 ul > li{
+  background-color: rgb(27, 27, 27);
+  text-align: justify;
+  color: white;
+  padding: 10px;
+  width: 210px;
+}
+.submenu1 >ul{
+  z-index: 3;
+}
+.submenu2 > ul{
+  z-index: 2;
+}
+#carrito{
+  background-color: white;
+  width: 239;
+  padding: 10;
+  margin: 0;
+  margin-left: 25;
+}
+#carrito b{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24;
+}
+#carrito p{
+  text-align: center;
+}
+.submenu >ul{
+  z-index: 2;
+}
+.pop{
+  background-color: #1d2228;
+  color:white;
+  font-size: 13px;
+  text-align: center;
+  padding: 33px;
+  position: absolute;
+  left: 34%;
+  top: 30%;
+  z-index: 1;
+  display: none;
+}
+#cerrar{
+  position: absolute;
+  left: 10;
+  top: 10;
+}
+#BV{
+  background-color: white;
+  border-radius: 10px;
+}
+.BP{
+  background-color: white;
+  margin-left: 0;
+  border-radius: 2px;
+}
+.salir{
+  display: none;
+  float: right;
+}
+.login{
+  position: relative;
+  float: right;
+  background: none;
+  border: none;
+	outline: none;
+  margin: 10;
+  top: 12;
+}
+.ssm ul > li{
+  float: left;
+  background-color: rgb(27, 27, 27);
+  padding: 10px;
+  text-align: justify;
+  color: white;
+}
+.pop1{
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 30px;
+  position: absolute;
+  left: 34%;
+  top: 30%;
+  z-index: 1;
+  display: none;
+}
+.salir1{
+  width: 50px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  border-radius: 50px;
+  border: none;
+	outline: none;
+  background-color: rgb(34, 177, 76);
+  cursor: pointer;
+}

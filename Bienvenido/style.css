@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+  	padding: 0;
+  	margin: 0;
+  	box-sizing: border-box;
+}
+html{
+  display: block;
+}
+body{
+  background-image: url(file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Iconos/oF4dKIU.gif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 225;
+}
+.logo{
+  position: relative;
+  width: 500px;
+  top:50%;
+}
+.login{
+  position: relative;
+  float: right;
+  background: none;
+  border: none;
+	outline: none;
+  margin: 10;
+  top: -215;
+  opacity: 0.8;
+}
+.especi{
+  font-size: 50px;
+  color: white;
+}
+#inicio{
+  position: absolute;
+  left: 40.4%;
+  border-radius: 50px;
+  font-size: 40px;
+  color: #000;
+  background-color: white;
+  width: 150px;
+  border: none;
+	outline: none;
+  font-family: 'Amatic SC', cursive;
+}
+#inicio:hover{
+  background-color: #DDC0C0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}

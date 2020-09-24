@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+  background-image: url(file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Background.png);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-family: arial;
+  font-size: 12;
+  padding: 0 0;
+}
+#logo{
+  position: relative;
+  top: 0px;
+  width: 376;
+  height: 66;
+  padding: 12;
+  padding-left: 20;
+}
+#menu{
+  background-color: #000;
+}
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li{
+  display: inline-block;
+}
+#menu ul li a{
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+#menu ul li a:hover{
+  background-color: #00b079;
+}
+.item-r{
+  float: right;
+}
+.nav li ul{
+  display: none;
+  position: absolute;
+}
+.nav li:hover > ul{
+  display: block;
+}
+.submenu ul > li{
+  float: left;
+  background-color: black;
+  min-width: 140px;
+}
+.submenu >ul{
+  z-index: 2;
+}
+#contenido{
+  border-top: 6px solid #C00000;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  top: 13;
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20;
+}
+#contenido ul{
+  list-style: none;
+  width: 1020;
+  margin-right: 5;
+  padding-left: 0;
+}
+#contenido ul li{
+  display: inline-block;
+  position: relative;
+  left: 20;
+}
+.login{
+  position: relative;
+  float: right;
+  background: none;
+  border: none;
+	outline: none;
+  margin: 10;
+  top: 12;
+}

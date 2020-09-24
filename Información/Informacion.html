@@ -1,0 +1,74 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Informaci%C3%B3n/Informacion.css"/>
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio"/>
+<link rel="icon" type="image/png" href="C:\Users\miltr\Desktop\Proyecto-Propuesta innovadora-por Joan Riofrio\Iconos\Imagen3.png">
+<title>CENTURIES</title>
+<head>
+<img id="logo" src="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/logo%20letras.png"/>
+<button class="login"><a href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/iniciar%20secion/Nueva%20carpeta/index.html"><img src="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Iconos/iniciar-sesion%20(1).png" width="100"></a></button>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="menu">
+    <ul class="nav">
+      <li><a href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Subpagina%202/Acercade.html">Acerca de</a></li>
+      <li><a href="#">Información</a></li>
+      <li class="submenu"><a href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/home.html">Productos</a>
+        <ul>
+          <li><a href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/home.html">Computadoras</a></li>
+          <li class="ssm"><a href="#">Audio y Video</a>
+            <ul>
+              <li>¡Próximamente!</li>
+            </ul>
+          </li>
+          <li class="ssm"><a href="#">Celulares</a>
+            <ul>
+              <li>¡Próximamente!</li>
+            </ul>
+          </li>
+          <li class="ssm"><a href="#">Accsesorios</a>
+            <ul>
+              <li>¡Próximamente!</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="item-r"><a href="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/subpagina%201/Subpagina.html">Contacto</a></li>
+    </ul>
+  </div>
+  <div id="contenido">
+    <div id="send1">
+    <br><br><b class="titulos">Datos de Envio</b><br><br>
+      País o región
+    <input type="text" class="input"><br>
+    <input type="text" placeholder="Nombre" class="input"><input type="text" placeholder="Apellidos" class="input"><br>
+    <input type="text" placeholder="Dirección" class="input">
+    <input type="text" placeholder="Ciudad" class="input"><br>
+    <input type="text" placeholder="Estado, provincia o región" class="input">
+    <input type="text" placeholder="Código postal" class="input"><br>
+    <input type="text" placeholder="Correo electrónico" class="input">
+    <input type="text" placeholder="Número de teléfono" class="input"><br><br>
+    <button class="salir" id="send">Enviar</button><br><br>
+    <a href="https://www.codigopostal.gob.ec/">Ayuda. ¿Dónde obtengo mi código postal?</a>
+  </div>
+  <div class="nospan" id="hola">
+  <br><br><b class="titulos">Excelente!!...Muchas Gracias!!</b><br><br>
+  <img class="gif2" src="file:///C:/Users/miltr/Desktop/Proyecto-Propuesta%20innovadora-por%20Joan%20Riofrio/Iconos/7c9b4b6ff870e8c8a338a2c9e215622a.gif">
+  </div>
+    <p><b class="titulos">¿No sabes que PC comprar?</b></p><br>
+    Estos videos te pueden ayudar:<br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-e6UIV88BqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/hnaHID5rlL0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById('send').onclick = function() {
+          document.getElementById('send1').style.display="none";
+          document.getElementById('hola').style.display="block";
+          alert("Sus Datos han sido enviados con exito!!");
+      }
+    }
+  </script>
+</body>
+</html>
